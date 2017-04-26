@@ -1,0 +1,106 @@
+/* https://coolors.co/1694a2-88e2e5-1d8a82-1c6a62-156280 */
+
+@font-face{
+    font-family: "curly";
+    src: url(/fonts/Bringshoot.ttf);
+}
+
+@font-face{
+    font-family: "thedefault";
+    src: url(/fonts/medium.ttf);
+}
+
+body{
+    background-color: #166964;
+    font-family: thedefault;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+body a {
+    color: #88E2E5;
+}
+
+body a:hover{
+    color: #156280;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background: url(/images/underwater.jpg) no-repeat center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 300px;
+    margin-bottom: 0 !important;
+    display: table;
+
+}
+
+#jumbotron-header{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.jumbotron h1{
+    text-align: center;
+    color: white;
+    font-family: curly;
+    font-size: 10rem;
+}
+
+.jumbotron h3{
+    text-align: center;
+    color: white;
+    font-family: curly;
+    font-size: 5rem;
+}
+
+.navbar-teal {
+    background-color: #0e4258;
+    border-color: #0a3142;
+}
+
+#myNavbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+#myNavbar li {
+    float: left;
+}
+
+#myNavbar li a{
+    display: block;
+    color: #b5fdff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#myNavbar li a:hover {
+    background-color: #07212c;
+    color: #4fb3b5;
+}
+
+.navbar-toggle:hover{
+    background-color: #07212c;
+}
+
+.icon-bar {
+    background-color: #88E2E5;
+}
+
+.portrait {
+    max-width:100%;
+    max-height:100%;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.thumbnails {
+    border-radius: 10%;
+}
