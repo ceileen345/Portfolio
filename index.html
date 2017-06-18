@@ -8,18 +8,6 @@
         <!-- Jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script type='text/javascript'>
-$(document).ready(function(){
-$(".thumbnails").hover(
-function() {
-$(this).stop().animate({"opacity": "1"}, "slow");
-},
-function() {
-$(this).stop().animate({"opacity": "0.8"}, "slow");
-});
-
-});
-</script>
     <title>Eileen Campbell</title>
     </head>
     
@@ -28,7 +16,7 @@ $(this).stop().animate({"opacity": "0.8"}, "slow");
         <div class = "jumbotron text-center img-responsive" id="jumbotron">
             <div id = "jumbotron-header">
             <h1>Eileen Campbell</h1>
-            <h3>Projects</h3>
+            <h3>Web Developer</h3>
             </div>
         </div>
         
@@ -53,16 +41,42 @@ $(this).stop().animate({"opacity": "0.8"}, "slow");
       </div>
     </nav>
         
-        <div class = "container-fluid">
-            <div class = "row text-center">
-            <div class = "col-sm-6">
-                <a href = "http://worldweaving.info/"><img src="/images/worldweavingsmall.png" class="thumbnails"></a>
-                </div>
-            <div class = "col-sm-6">
-            <a href = "https://codepen.io/ceileen345/pen/pPdeoE"><img src="/images/wikipediaviewersmall.png" class="thumbnails"></a>
-                </div>
+    <!-- actual body -->
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-3 hidden-xs"><img src = "/images/P7%20small.jpg" class="portrait"></div>
+            <div class = "col-sm-6 col-xs-12 text-center"><h1>Who is Eileen Campbell?</h1>
+            <p>Eileen Campbell is a web developer seeking a junior front-end web developer position. Can start work in three weeks.</p>
+            <hr>
+            <h3>Contact</h3>
+            <p></p>
+            <p>(331)-301-6963</p>
+            <p><a href = "mailto:ceileen345@gmail.com">ceileen345@gmail.com</a></p>
+            </div>
+            <div class = "col-sm-3 hidden-xs">
+                <h2 style="text-align: center; border: 2px solid; border-radius: 10px;">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
             </div>
         </div>
-        
+        <div class = "row">
+            <div class = "hidden-sm hidden-md hidden-lg hidden-xl col-xs-6">
+                <img src = "/images/P7%20small.jpg" class="portrait">
+            </div>
+            <div class = "hidden-sm hidden-md hidden-lg hidden-xl col-xs-6">
+            <h2 style="text-align: center; border: 2px solid; border-radius: 10px;">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+        </div>
     </body>
 </html>
